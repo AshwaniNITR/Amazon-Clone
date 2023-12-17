@@ -1,0 +1,566 @@
+*{
+    margin:0;
+    border:border-box;
+    font-style:arial
+}
+
+
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+.nav-left{
+    height:50px;
+    width: 113px;
+    
+}
+.logo{
+    height:50px;
+    width:100%;
+    background-image: url("./amazon_logo.png");
+    background-size: cover; /*new */
+    
+}
+
+.border:hover{
+    border:2px solid white;
+}
+.address {
+    margin-top: 10px;
+    width: 100%;
+
+}
+#upper{
+    color:#CCCCCC;
+    font-size: 12px;
+    
+}
+#India{
+    color:#FFFFFF;
+
+    font-size:14px;
+}
+.location{
+    margin-top:24px;
+}
+.border{
+    display:flex;
+}
+.nav-search{
+    display:flex;
+    position:relative;
+    left:10px;
+    background-color: gold;
+    width:620px;
+    height:40px;
+    border-radius: 3px;
+
+    
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.select-search{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius:3px;
+    background-color: #F3F3F3;
+    width:45px;
+    height:40px;
+    text-align: center;
+    border:none;
+}
+.input-search{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.glass{
+    width:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#0F1111;
+    font-size: 1.2rem;
+}
+.language{
+    width:73.38px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#flag{
+    width:21.6px;
+    height:16.2px;
+    margin-top: 3px;
+}
+.all{
+    display: flex;
+    align-items: end;
+
+}
+.sign-in{
+    height:50px;
+    display: block;
+    
+}
+#above{
+    font-size: 12px;
+
+}
+#below{
+    font-size: 14px;
+}
+.sub{
+    margin:10px;
+}
+.returns{
+    display:block;
+    align-items: center;
+}
+.cart{
+    width:84px;
+    height:50px;
+
+}
+#cart{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    font-size:2rem;
+}
+.cart-text{
+    width:100%;
+    font-size:14px;
+    display:flex;
+    align-items: end;
+}
+.panel{
+    background-color: #222f3d;
+    height:39px;
+    display:flex;
+    color:#FFFFFF;
+}
+.menu{
+    width:58px;
+    height: 34px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    float:left;
+
+}
+.rest{
+    font-size: 14px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.a{
+    width:108.81px;
+    height:34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    width:75.79px;
+    height:34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    width:134.34px;
+    height:34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    width:86.99px;
+    height:34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e{
+    width:47.38px;
+    height:34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    width:42%;
+}
+.hero{
+    height:350px;
+    background-image: url("./hero_image.jpg");
+    background-size: cover;
+    display:flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.hero-msg{
+    background-color: white;
+    color: #0F1111;
+    font-size: 14px;
+    height:40px;
+    width:1460px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.hero-msg a{
+    color:#007185;
+}
+.otf{
+    
+    height:900px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height:350px;
+    width:23%;
+    border:none;
+    background-color: white;
+    padding-top:20px;
+    padding-bottom:15px;
+    
+}
+.pro-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.cover{
+    height:165.6px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign{
+    height:124px;
+    width:95%;
+    text-align: center;
+    background-color: white;
+    border:1px solid #DDD;
+    padding:0px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+.btn{
+    width:238px;
+    height:28px;
+    font-size: 14px;;
+    text-shadow: 0 1px 0 #ffe093;
+    cursor: pointer;
+    background-color: gold;
+}
+.sub-sign{
+    margin-top:28px;
+}
+.third-last{
+    
+    height:49px;
+}
+#btp{
+    background-color: #232f3e;
+    color:#FFFFFF;
+    text-align:center;
+    height:19px;
+    width:100%;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.second-last{
+    background-color:  #1c242d;
+    height:318.4px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside-second-last{
+    display:flex;
+    height:318.4px;
+    width:1000px;
+    color:#FFFFFF;
+    font-size:13px;
+    padding-top:60px;
+    margin-bottom: 25px;
+}
+.first{
+    width:136.05px;
+    height:318.4px;
+}
+.space{
+    width:100px;
+    height:318.4px;
+}
+.inside-first-one{
+    font-weight: 700;
+    font-size:16px;
+    margin-top:6px;
+    margin-bottom:14px;
+    height:16.8px;
+    width:116.05px;
+}
+.inside{
+    height:16.8px;
+    width:116.05px;
+    margin-bottom: 10px;
+}
+.second{
+    height:318.4px;
+    width:184.33px;
+}
+.inside-second-one{
+    font-weight: 700;
+    font-size:16px;
+    margin-top:6px;
+    margin-bottom:14px;
+    height:16.8px;
+    width:164.33px;
+}
+.inside_one{
+    height:16.8px;
+    width:164.33px;
+    margin-bottom: 10px;
+}
+.third{
+    height:318.4px;
+    width:222.21px;
+}
+.inside-third-one{
+    font-weight: 700;
+    font-size:16px;
+    margin-top:6px;
+    margin-bottom:14px;
+    height:16.8px;
+    width:222.21px;
+}
+.inside_two{
+    height:16.8px;
+    width:222.21px;
+    margin-bottom: 10px;
+}
+.fourth{
+    height:318.4px;
+    width:157.41px;
+}
+.inside-fourth-one{
+    height:16.8px;
+    width:157.41px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-weight:700;
+    font-size: 16px;
+}
+.inside_three{
+    height:16.8px;
+    width:157.41px;
+    margin-bottom: 10px;
+}
+.third-last:hover{
+    opacity:0.7;
+}
+#btp:hover{
+    opacity: 0.7;
+}
+a:hover{
+  cursor:pointer;
+  color:red;
+}
+.intermediate{
+    height:0.8px;
+}
+.amazon{
+    height: 68px;
+    border-top: 0.25px solid #FFFFFF;
+    background-color:  #1c242d;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons{
+    width:60%;
+    height:69.6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#amazon{
+    height:68px;
+    width:90.4px;
+   background-image: url("./amazon_logo.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+    left: 20px;
+    margin-top: 10px;
+}
+
+.three-icons{
+    width:440.5px;
+    height:34.6px;
+    font-size: 13px;
+    color:#FFFFFF;
+    display:flex;
+    position: relative;
+    right:50px;
+}
+.english{
+    width:30%;  
+    height:20.2px;
+    border: 1px solid #848688;
+    padding:0.8px 0.8px 0.8px 0.8px;
+    margin-right: 4px;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    position:relative;
+    left:3px
+}
+.sel{
+    display: flex;
+    justify-content: end;
+}
+.eng{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.usd{
+    display: flex;
+    align-items: center;
+    width:30%;
+    height:20.2px;
+    border: 1px solid #848688;
+    font-size: 13px;
+    color:#FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    left:6px;
+
+
+}
+.dollar{
+    width:20px;
+    height:18px;
+    text-align: center;
+}
+.txt{
+    width:114.98px;
+    height:18px;
+    text-align:center;
+}
+.usa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    width:30%;
+    height:20.2px;
+    border: 1px solid #848688;
+    color:#FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    left:12px;
+    padding:0.8px;
+    margin-right: 4px;
+}
+.us_flag{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:18px;
+    width:25px;
+    background-image: url("./us_img.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ustxt{
+    width:79.78px;
+    height:18px;
+
+}
+.english:hover{
+    cursor: pointer;
+}
+.usd{
+    cursor: pointer;
+}
+.usa{
+    cursor: pointer;
+}
+.pro-image{
+    cursor: pointer;
+}
+.more-on-amazon{
+    height:315.60px;
+    background-color: #0F1111;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.more{
+    width:1000px;
+    height:315.60px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.last{
+    border-top:0.25px solid white;
+    height:37.2px;
+    background-color: #0F1111;
+    padding-top:10px;
+    padding-bottom: 30px;
+    font-size:13px;
+    color:#FFFFFF;
+}
+.pages{
+    text-align:center;
+
+}
+.copyright{
+    padding-top: 10px;
+    text-align: center;
+}
+/* width for cont is given 140px by dividing 1000px/7.. since in each row only 7 divs can fit according to original model..
+similarly, height is given by 315.6/5 */
+.cont{
+    color:#999;
+    font-size: 12px;
+    width:140px;
+    height:60px;
+}
+#heading{
+    color:#FFFFFF;
+}
